@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Guess the number</title>
+    <link rel="stylesheet" href="joc1.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+    <section>
+        <div class="banner">
+            <h1>Guess the number</h1>
+        </div>
+
+        <div id="search">
+            <form>
+                <input type="number" id="guess" placeholder="0,1,2,...,1000">
+                <button type="submit" id="verify">?</button>
+            </form>
+            <div id="result"></div>
+            <div id="interval"></div>
+            <div id="tries-left"></div>
+            <audio id="win-sound" src="winning-sound.wav" preload="auto"></audio>
+        </div>
+    </section>
+
+    <script src="joc1.js"></script>
+</body>
+
+</html>

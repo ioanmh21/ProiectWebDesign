@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ro">
+    <head>
+        <meta charset="UTF-8">
+        <title>Proximity Game</title>
+        <link rel="stylesheet" href="joc2.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+    <body>
+        <div id="start-menu">
+            <div class="banner">
+                <h1>Proximity Game</h1>
+            </div>
+            <button id="bs" class="start-button">Level 0</button>
+        </div>
+        
+        <div id="container">
+            
+            <div id="matt">
+                <table id="matrix"></table>
+            </div>
+            <div id="info">
+                <div id="nivel"></div>
+                <label>
+                    <input type="checkbox" id="modeToggle">
+                    Big guess
+                </label>
+                <div id="tries-left"></div>
+                <div id="misses">0 misses</div>
+                <div id="outcome"></div>
+                <button id="game-button" class="travel"></button>
+                <audio id="win-sound" src="winning-sound.wav" preload="auto"></audio>
+                <audio id="lose" src="lose.wav" preload="auto"></audio>
+            </div>
+            
+        </div>
+
+        <script src="joc2.js"></script>  
+    </body>    
+</html>

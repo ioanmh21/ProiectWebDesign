@@ -1,0 +1,85 @@
+body {
+    font-family: 'Courier New', monospace;
+}
+
+#matrix {
+    border-collapse: collapse;
+    margin-left: 10px;
+    margin-top: 50px;
+    padding: 0;
+}
+#matrix td {
+    width: 2vmin;
+    height: 2vmin;
+    border: 2px solid black;
+    text-align: center;
+    padding: 5px;
+}
+
+.hidden{
+    display:none;
+}
+
+.banner{
+    justify-content: center;
+}
+.banner h1{
+    font-size: 11vmin;
+    margin-top: 10%;
+}
+
+.start-button{
+    height: 13vh;
+    width:40vw;
+    background-color: lightgreen;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    font-size: 8vmin;
+    cursor: pointer;
+}
+#start-menu{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+#container{
+    display:none;
+}
+#info{
+    margin-left: 20px;
+    margin-top:50px;
+}
+#nivel,#outcome{
+    font-size: 9vmin;
+    font-weight: bold;
+}
+label,#misses,#tries-left{
+    font-size: 4vmin;
+    font-weight: bold;
+}
+
+.win-effect{
+    animation: win-animation 0.7s ease-in-out;
+}
+@keyframes win-animation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.5);
+    }
+    100% {
+      transform: scale(1);
+    }
+}
+
+.travel{
+    height: 8vh;
+    width:20vw;
+    background-color: lightgreen;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    font-size: 6vmin;
+    cursor: pointer;
+    justify-content: center;
+}
