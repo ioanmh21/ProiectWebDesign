@@ -37,3 +37,16 @@ Clonează acest repository:
    git clone https://github.com/username/repo-name.git
 ```
 👉 Pentru a deschide site-ul, deschide fișierul `proiect.html` în browser.
+
+## 🖼️ Imagini
+
+<table>
+  <tr>
+    <td><img src="images/site1.png" alt="site1" width="400"/></td>
+    <td><img src="images/site2.png" alt="site2" width="400"/></td>
+  </tr>
+  <tr>
+    <td><img src="images/site3.png" alt="site3" width="400"/></td>
+    <td><img src="images/site4.png" alt="site4" width="400"/></td>
+  </tr>
+</table>
