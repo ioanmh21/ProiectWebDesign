@@ -1,4 +1,4 @@
-# 🎮 Mini-Portal cu Jocuri și Feedback
+# 🎮 Site cu Jocuri și Feedback
 
 Acest site conține 3 secțiuni principale:
 1. **Jocul 1:** Guess the number
