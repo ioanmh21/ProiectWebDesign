@@ -36,7 +36,7 @@ Clonează acest repository:
    ```bash
    git clone https://github.com/username/repo-name.git
 ```
-👉 Pentru a deschide site-ul, deschide fișierul `proiect.html` în browser.
+Pentru a deschide site-ul, deschide fișierul `proiect.html` în browser.
 
 ## Imagini
 
