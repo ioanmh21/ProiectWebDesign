@@ -1,4 +1,4 @@
-# 🎮 Site cu Jocuri și Feedback
+# Site cu Jocuri și Feedback
 
 Acest site conține 3 secțiuni principale:
 1. **Jocul 1:** Guess the number
@@ -7,7 +7,7 @@ Acest site conține 3 secțiuni principale:
 
 ---
 
-## 🕹️ Jocul 1 – Guess the number
+## Jocul 1 – Guess the number
 - Scopul este să ghicești un număr generat aleator între 0 și 1000.
 - Ai la dispoziție 11 încercări.
 - La fiecare încercare, primești indicații dacă numărul căutat e „Mai mare” sau „Mai mic”.
@@ -16,7 +16,7 @@ Acest site conține 3 secțiuni principale:
 
 ---
 
-## 🧩 Jocul 2 – Proximity Game
+## Jocul 2 – Proximity Game
 - Se generează o matrice de 20×20.
 - Jocul are mai multe niveluri, fiecare cu puncte „fierbinți” și „reci”.
 - Pe măsură ce avansezi, dificultatea crește: apar mai multe puncte de găsit.
@@ -25,20 +25,20 @@ Acest site conține 3 secțiuni principale:
 
 ---
 
-## 📝 Feedback
+## Feedback
 - Utilizatorii pot lăsa un nume, un comentariu și o notă (rating).
 - Ultimele 5 feedback-uri sunt salvate local (localStorage) și afișate automat.
 
 ---
 
-## ⚙️ Cum rulezi local
+## Cum rulezi local
 Clonează acest repository:
    ```bash
    git clone https://github.com/username/repo-name.git
 ```
 👉 Pentru a deschide site-ul, deschide fișierul `proiect.html` în browser.
 
-## 🖼️ Imagini
+## Imagini
 
 <table>
   <tr>
